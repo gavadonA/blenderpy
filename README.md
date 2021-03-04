@@ -1,6 +1,6 @@
 # blenderpy
  
-pythonでblenderを動かす環境構築するやつ
+pythonでblenderを動かせるようにするやつ
 
 *ubuntu-20.04
 *Python-3.9.1
