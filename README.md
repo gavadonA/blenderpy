@@ -2,9 +2,9 @@
  
 pythonでblenderを動かす環境構築するやつ
 
-ubuntu-20.04
-Python-3.9.1
-Blender-2.93
+*ubuntu-20.04
+*Python-3.9.1
+*Blender-2.93
  
 # Note
  dockerfileの実行にすごく時間かかるんで，気をつけてください
@@ -28,6 +28,6 @@ docker run -it -d --name [コンテナ名] [イメージID] /bin/bash
 
 objファイルの読み込み→頂点数削減→objファイルの出力
 
-decimate_ratio　頂点数削減の比率
-input_path　　　入力するobjファイルのpath
-output_path    出力するobjファイルのpath
+*decimate_ratio　頂点数削減の比率
+*input_path　　　入力するobjファイルのpath
+*output_path    出力するobjファイルのpath
