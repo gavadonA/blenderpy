@@ -24,9 +24,8 @@ docker build -t [イメージ名] .
 docker run -it -d --name [コンテナ名] [イメージID] /bin/bash
 ```
 
-# Decimate.py
-objファイルの読み込み→頂点数削減→objファイルの出力
-をします
+# decimate.py
+decimateフォルダをコンテナにコピーして，decimate.pyを実行すると，頂点数を削減したobjファイルを出力します
 
 * decimate_ratio　頂点数削減の比率
 * input_path　　　入力するobjファイルのpath
